@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Rota",
-    "slug": "Rota",
+    "slug": "rota",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,6 +34,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d644e8a3-0195-48f9-b578-ab46f6b8b9e6"
+      }
+    },
+    "owner": "ofd16_expo"
   }
 }
